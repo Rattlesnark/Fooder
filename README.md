@@ -3,46 +3,51 @@ Computer Science school project.
 
 NOTE: Click on 'Raw' to view text in preserved formatting (line breaks).
 
-Features v3.txt (Last edited 12.07PM, 17/7)
+Features v4.txt (Last edited 1.32PM, 18-7)
 ------------------------------------------------
 
 Overall "Features":
-1. Share FB
-2. Favourite (DB?)
-3. Login (DB?) -> Need to encrypt password?
-4. Upload (DB?)
-5. Database
-6. Rating (DB?) -> How to record?
-7. Comments (DB?)
-[X] 8. Video -> Seems simple enough, Youtube API.
-[X] + Toast? -> Used before, re-apply as "new UI element exploration"
-9. Push notifications?
+[/] 5. FB Share -> Button implemented. Not sure if actually functional (requires login).
+? Favourite (DB?)
+? Login (DB?) -> Need to encrypt password? FB Login implemented, although functionality not tested.
+? Upload (DB?)
++ Database
+? Rating (DB?) -> How to record?
+? Comments (DB?)
+[/] 1. Video -> Seems simple enough, Youtube API. Edit code to make it load appropriate video based on recipe.
+[/] 2. Toast -> Used before, re-apply as "new UI element exploration"
++ Push notifications
++ Location?
+[/] 3. Search -> AppCode example available, http://www.appcoda.com/search-bar-tutorial-ios7/. Implemented, but not coded.
+? Timer?
++ Animation -> Pop framework installed. More marks for proper complex animations (in terms of coding/implementation?).
+[X] 6. FB Login -> Button implemented. Not sure if actually functional (requires login).
++ Cloud -> Save stuff online.
++ Save/export feature -> Export data onto an external service/API. Evernote?
+[/] 8. Google Calendar -> Mark a date as reminder to "prepare a recipe on this particular day". 
 
-Location?
-[X] Search? -> AppCode example available, http://www.appcoda.com/search-bar-tutorial-ios7/
-Timer?
-Animation? -> Pop framework installed.  
+<NEW> "Minor" features (fulfill quota, not big weightage for marks):
+~ Custom text field (with framework)
+[X] 4. UI scroll view
+[X] 7. UI tab view
 
 Inquiries:
-* Need 12? (3 per member?)
+X Need 12 of "new exploration"? (3 per member?)
 * Any of the above overlapping?
-* Fine if project accounts for single user only in database? (one rating, one favourite table, etc.)
-
-Current Pages:
-1. Login
-2. Register
-3. Recipes list
-	-> 4. View full recipe
-5. Add new recipe
-6. My Favourites
+X Fine if project accounts for single user only in database? (one rating, one favourite table, etc.)
+X CocoaPods, custom text field... count as "new exploration"?
 
 More stuff?:
-- Account settings
+> Account settings
 
 Exploring/Explored:
-CoreData
+CoreData -> Just use web database?
 
 Unusable:
-SensibleTableView - Cannot be used with CoreData. Demo video capabilities not applicable.
+SensibleTableView -> Cannot be used with CoreData. Demo video capabilities not applicable. Product purchase required.
 
-** Note: Do more exploration, don’t spend TOO much time on Database.
+Notes:
+> Do more exploration, don’t spend TOO much time on Database.
+- Cocoapods - Each framework counts as 1 "new exploration". Marking weightage depends on how substantial the implementation is.
+
+// Document on the FB auth error!

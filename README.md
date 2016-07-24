@@ -54,7 +54,7 @@ Exploring/Explored:
 CoreData -> Just use web database?
 Firebase -> Taro's work. Functionality unknown. Will be presented.
 Auth0 -> Taro's work. Somewhat functional. Will be presented.
-Cloudinator -> Marcus's work. Functionality unknown. Will be presented.
+Cloudinary -> Marcus's work. Functionality unknown. Will be presented.
 
 Notes:
 - FB auth error due to FB app not install on device.
